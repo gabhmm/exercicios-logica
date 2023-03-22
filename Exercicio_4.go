@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Programa que inverte uma determinada string
+
 func rev(s string) string {
 
 	fraseInv := ""
