@@ -15,6 +15,6 @@ func rev(s string) string {
 }
 
 func main() {
-	frase := "Garrafa"
+	frase := "Garrafa" // Frase que vai ser invertida
 	fmt.Println(rev(frase))
 }
