@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-//exercicio de interface e polimorfismo
+//exercicio de interface e polimorfismo com structs
+
 
 type pessoa struct {
 	nome    string
