@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// Compara um array com o outro.
+// Apenas se a ordem for igual.
+
 func Comparar() bool {
 
 	a := []int{1, 2, 4}
