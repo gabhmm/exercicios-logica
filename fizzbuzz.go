@@ -12,8 +12,7 @@ func main() {
 		} else if x%5 == 0 {
 			fmt.Println("Buzz")
 		} else {
-			fp
+			fmt.Println(x)
 		}
 	}
-
 }
