@@ -2,18 +2,24 @@ package main
 
 import "fmt"
 
-func main() {
+// Compara um array com o outro.
+// Apenas se a ordem for igual.
 
-	for x := 1; x <= 100; x++ {
-		if x%3 == 0 && x%5 == 0 {
-			fmt.Println("FizzBuzz")
-		} else if x%3 == 0 {
-			fmt.Println("Fizz")
-		} else if x%5 == 0 {
-			fmt.Println("Buzz")
-		} else {
-			fp
+func Comparar() bool {
+
+	a := []int{1, 2, 4}
+	b := []int{1, 2, 4}
+	if len(a) != len(b) {
+		return false
+	} else {
+		for i, v := range a {
+			if v != b[i] {
+				return false
+			}
 		}
+		return true
 	}
-
+}
+func main() {
+	fmt.Println(Comparar())
 }
